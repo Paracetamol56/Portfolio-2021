@@ -1,5 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap');
 
 /*
 	Alpha by HTML5 UP
@@ -3328,7 +3329,8 @@ body.landing #page-wrapper {
 }
 
 #banner .console {
-  font-family: "Cascadia Code";
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
   width: 700px;
   height: 350px;
   box-sizing: border-box;
