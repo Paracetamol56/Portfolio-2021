@@ -12,6 +12,12 @@
 
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
+:root {
+  --main-bg-color: red;
+  --secondary-bg-color: purple;
+  --main-text-color: blue;
+}
+
 html,
 body,
 div,
@@ -3332,8 +3338,8 @@ body.landing #page-wrapper {
 }
 
 #banner .console header {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
   background-color: #555;
   height: 45px;
   line-height: 45px;
@@ -3342,8 +3348,8 @@ body.landing #page-wrapper {
 }
 
 #banner .consolebody {
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
   box-sizing: border-box;
   padding: 20px;
   height: calc(100% - 40px);
