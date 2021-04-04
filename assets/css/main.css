@@ -13,9 +13,6 @@
 /* Based on meyerweb.com/eric/tools/css/reset (v2.0 | 20110126 | License: public domain) */
 
 :root {
-  --main-bg-color: red;
-  --secondary-bg-color: purple;
-  --main-text-color: blue;
 }
 
 html,
@@ -3481,8 +3478,8 @@ body.landing #main {
 /* CTA */
 
 #cta {
-  background: #e89980;
-  color: #f9e6df;
+  background: #5dade2;
+  color: #dff9f9;
   padding: 3.5em 0 4em 0;
   text-align: center;
 }
@@ -3495,57 +3492,42 @@ body.landing #main {
   color: inherit;
 }
 
-#cta form {
+#cta table {
   margin: 0 auto;
   max-width: 100%;
-  width: 25em;
+  width: 30em;
+  border-collapse: unset;
 }
 
-#cta input[type="submit"],
-#cta input[type="reset"],
-#cta input[type="button"],
-#cta .button {
-  box-shadow: none;
-  background: #fff;
-  color: #e89980;
+#cta table tr {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  color: #dff9f9;
 }
 
-#cta input[type="text"],
-#cta input[type="password"],
-#cta input[type="email"],
-#cta select,
-#cta textarea {
-  color: #ffffff;
-  background: rgba(255, 255, 255, 0.15);
-  border: 0;
+#cta table tr th {
+  font-size: 20px;
+  color: #dff9f9;
 }
 
-#cta input[type="text"]:focus,
-#cta input[type="password"]:focus,
-#cta input[type="email"]:focus,
-#cta select:focus,
-#cta textarea:focus {
-  box-shadow: inset 0 0 0 2px #fff;
+#cta table .th-left {
+  text-align: right;
 }
 
-#cta ::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
+#cta table b {
+  color: #dff9f9;
+  text-align: right;
 }
 
-#cta :-moz-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
+#cta table a {
+  color: #c2f5f5;
+  text-align: right;
 }
 
-#cta ::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
-}
-
-#cta :-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
-}
-
-#cta .formerize-placeholder {
-  color: rgba(255, 255, 255, 0.75) !important;
+#cta table a:hover {
+  color: #a5d1d1;
 }
 
 /* Wide */
@@ -3966,6 +3948,14 @@ body.landing #main {
   #main > header p {
     font-size: 1em;
     padding-bottom: 1em;
+  }
+
+  #cta table tr {
+    font-size: 14px;
+  }
+
+  #cta table tr th {
+    font-size: 14px;
   }
 
   body.landing #main {
