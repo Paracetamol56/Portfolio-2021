@@ -28,8 +28,6 @@
 			}, 100);
 		});
 
-	// Console
-
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			alignment: 'right'
