@@ -216,12 +216,12 @@ textarea {
 }
 
 a {
-  color: #e89980;
+  color: #5dade2;
   text-decoration: none;
 }
 
 a:hover {
-  color: #e89880ab;
+  color: #5dade2ab;
 }
 
 strong,
@@ -2377,7 +2377,22 @@ input[type="radio"] + label:before {
 }
 
 .box.features .features-row section :last-child {
+  text-align: justify;
   margin-bottom: 0;
+}
+
+.box.features .features-row section ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.box.features .features-row section li {
+  margin-bottom: 5px;
 }
 
 .box.features .features-row section:nth-child(2n) {
