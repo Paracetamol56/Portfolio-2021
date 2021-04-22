@@ -2382,11 +2382,12 @@ input[type="radio"] + label:before {
 }
 
 .box.features .features-row section ul {
-  list-style: none;
+  text-align: left;
+  list-style: circle;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: left;
   margin-bottom: 0;
   padding: 0;
 }
@@ -2527,22 +2528,22 @@ input[type="radio"] + label:before {
 }
 
 .icon.major.accent2 {
-  background: #e89980;
+  background: rgb(93, 173, 226);
   color: #ffffff;
 }
 
 .icon.major.accent3 {
-  background: #7fcdb8;
+  background: rgb(93, 173, 226);
   color: #ffffff;
 }
 
 .icon.major.accent4 {
-  background: #90b0ba;
+  background: rgb(93, 173, 226);
   color: #ffffff;
 }
 
 .icon.major.accent5 {
-  background: #e5cb95;
+  background: rgb(93, 173, 226);
   color: #ffffff;
 }
 
