@@ -280,6 +280,12 @@
 	</div>
 
 	<!-- Scripts -->
+	<script>
+		$(document).ready(function () {
+			$('#header').load('static/header.html');
+			$('#footer').load('static/footer.html');
+		});
+	</script>
 	<script src="./assets/js/jquery.min.js"></script>
 	<script src="./assets/js/jquery.dropotron.min.js"></script>
 	<script src="./assets/js/jquery.scrollex.min.js"></script>
@@ -289,12 +295,6 @@
 	<script src="./assets/js/console.js"></script>
 	<script src="./assets/js/smooth.scrolling.js"></script>
 	<script src="./assets/js/main.js"></script>
-	<script>
-		$(document).ready(function () {
-			$('#header').load('static/header.html');
-			$('#footer').load('static/footer.html');
-		});
-	</script>
 </body>
 
 </html>
